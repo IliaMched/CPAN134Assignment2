@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Form</title>
+      <script defer src="script.js"></script> <!-- We’ll write the JavaScript here later -->
+</head>
+<body>
+     <form  id= "myForm" name="myForm" action="#"  method="post">
+
+	  <h1 id="welcome-message" data-source="name-storage">Welcome, User!</h1> 
+	<label for="name">Username:</label>
+<input type="text" id="username" name="username" placeholder="xXiliaDarkAngelXx" required><br><br>
+ 
+	
+
+		 
+
+
+
+
+
+		
+	<div class="buttoncontainer">
+		 
+		 <button id="save-btn" type="submit" >Save Name</button>
+		 <button id="clear-btn" type="reset" >Clear Name</button>
+		 
+		</div>
+		  <div id="name-display-container">
+        <p id="display-name"></p>
+    </div>
+</form>
+</body>
+</html>
+
